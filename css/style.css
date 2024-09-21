@@ -49,7 +49,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #FFFF99, 0 0 50px #FFFF99, 0 0 100px #FFFF99;
     }
     10%, 90%{
         color: #111;
@@ -98,3 +98,13 @@ body{
         font-size: 1rem;
     }
 }
+
+@media (min-width: 375px) and (max-width: 540px) {
+    /* Estilos específicos para pantallas con un ancho entre 375px y 675px */
+.description > p{
+    font-size: 25px;
+    
+}
+    
+    /* Otros estilos específicos */
+  }
